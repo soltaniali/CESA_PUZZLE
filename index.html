@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Input</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter 8 Characters</h1>
+        <div id="input-container">
+            <input type="text" id="char1" maxlength="1">
+            <input type="text" id="char2" maxlength="1">
+            <input type="text" id="char3" maxlength="1">
+            <input type="text" id="char4" maxlength="1">
+            <input type="text" id="char5" maxlength="1">
+            <input type="text" id="char6" maxlength="1">
+            <input type="text" id="char7" maxlength="1">
+            <input type="text" id="char8" maxlength="1">
+        </div>
+        <button onclick="checkInput()">Submit</button>
+        <p id="message"></p>
+        <p id="next-text" style="display: none;">Here is the next text.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
